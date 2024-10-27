@@ -1,0 +1,313 @@
+.faq-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.faq-text10 {
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+.faq-text11 {
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+}
+.faq-text14 {
+  display: inline-block;
+  padding: 0px;
+  text-align: center;
+  border-width: 0px;
+  background-color: transparent;
+}
+.faq-text17 {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: var(--dl-space-space-unit);
+}
+.faq-text20 {
+  display: inline-block;
+}
+.faq-text21 {
+  display: inline-block;
+  text-align: center;
+}
+.faq-text22 {
+  font-size: 38px;
+}
+.faq-text24 {
+  display: inline-block;
+}
+.faq-text27 {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+.faq-text28 {
+  color: var(--dl-color-theme-neutral-dark);
+  font-size: 24px;
+}
+.faq-text30 {
+  color: var(--dl-color-theme-neutral-dark);
+  font-size: 24px;
+}
+.faq-text34 {
+  color: var(--dl-color-theme-primary2);
+  font-size: 60px;
+}
+.faq-text36 {
+  font-size: 28px;
+}
+.faq-text38 {
+  font-size: 28px;
+}
+.faq-text40 {
+  font-size: 28px;
+}
+.faq-text42 {
+  font-size: 28px;
+}
+.faq-text44 {
+  font-size: 28px;
+}
+.faq-text46 {
+  display: inline-block;
+}
+.faq-text47 {
+  fill: var(--dl-color-theme-primary1);
+  color: var(--dl-color-theme-primary1);
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-buttonradius);
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.faq-text48 {
+  fill: var(--dl-color-theme-primary1);
+  color: var(--dl-color-theme-primary1);
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border-width: 0px;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.faq-text49 {
+  fill: var(--dl-color-theme-primary1);
+  color: var(--dl-color-theme-primary1);
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border-width: 0px;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.faq-text50 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  margin: var(--dl-space-space-halfunit);
+  display: inline-block;
+  align-self: center;
+  font-style: normal;
+  font-weight: 700;
+}
+.faq-text51 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  margin: var(--dl-space-space-halfunit);
+  display: inline-block;
+  align-self: center;
+  font-style: normal;
+  font-weight: 700;
+}
+.faq-text52 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  margin: var(--dl-space-space-halfunit);
+  display: inline-block;
+  align-self: center;
+  font-style: normal;
+  font-weight: 700;
+}
+@media(max-width: 1200px) {
+  .faq-text10 {
+    padding: 4px;
+    text-align: center;
+  }
+  .faq-text11 {
+    padding: 4px;
+    text-align: center;
+  }
+  .faq-text14 {
+    padding: 4px;
+    text-align: center;
+  }
+  .faq-text22 {
+    font-size: 38px;
+  }
+}
+@media(max-width: 991px) {
+  .faq-text10 {
+    text-align: center;
+  }
+  .faq-text11 {
+    text-align: center;
+  }
+  .faq-text14 {
+    text-align: center;
+  }
+  .faq-text17 {
+    margin-right: var(--dl-space-space-unit);
+  }
+  .faq-text47 {
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  .faq-text48 {
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  .faq-text49 {
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  .faq-text50 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  .faq-text51 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  .faq-text52 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+@media(max-width: 767px) {
+  .faq-text10 {
+    text-align: center;
+  }
+  .faq-text11 {
+    text-align: center;
+  }
+  .faq-text14 {
+    text-align: center;
+  }
+  .faq-text17 {
+    text-align: center;
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .faq-text21 {
+    margin: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-halfunit);
+    font-size: 24px;
+    padding-right: 8px;
+  }
+  .faq-text22 {
+    font-size: 38px;
+  }
+  .faq-text28 {
+    color: var(--dl-color-theme-neutral-dark);
+    font-size: 20px;
+  }
+  .faq-text29 {
+    color: var(--dl-color-theme-neutral-dark);
+    font-size: 20px;
+  }
+  .faq-text30 {
+    color: var(--dl-color-theme-neutral-dark);
+    font-size: 20px;
+  }
+  .faq-text32 {
+    font-size: 24px;
+  }
+  .faq-text34 {
+    color: var(--dl-color-theme-primary2);
+    font-size: 40px;
+  }
+  .faq-text36 {
+    font-size: 22px;
+  }
+  .faq-text37 {
+    font-size: 22px;
+  }
+  .faq-text38 {
+    font-size: 22px;
+  }
+  .faq-text39 {
+    font-size: 22px;
+  }
+  .faq-text40 {
+    font-size: 22px;
+  }
+  .faq-text41 {
+    font-size: 22px;
+  }
+  .faq-text42 {
+    font-size: 22px;
+  }
+  .faq-text43 {
+    font-size: 28px;
+  }
+  .faq-text44 {
+    font-size: 28px;
+  }
+  .faq-text50 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+  }
+  .faq-text51 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+  }
+  .faq-text52 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+  }
+}
+@media(max-width: 479px) {
+  .faq-text14 {
+    text-align: center;
+  }
+  .faq-text15 {
+    font-weight: 700;
+  }
+  .faq-text47 {
+    justify-content: center;
+  }
+  .faq-text50 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .faq-text51 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+    font-style: normal;
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+    font-weight: 700;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .faq-text52 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+    margin-left: 1x;
+    margin-right: 1x;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+}

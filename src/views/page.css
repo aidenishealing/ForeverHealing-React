@@ -1,0 +1,200 @@
+.page-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.page-text10 {
+  display: inline-block;
+  text-decoration: none;
+}
+.page-text13 {
+  display: inline-block;
+}
+.page-text16 {
+  display: inline-block;
+}
+.page-text17 {
+  display: inline-block;
+  margin-right: var(--dl-space-space-unit);
+  text-transform: uppercase;
+}
+.page-text20 {
+  display: inline-block;
+}
+.page-text21 {
+  display: inline-block;
+}
+.page-text22 {
+  fill: var(--dl-color-theme-primary1);
+  color: var(--dl-color-theme-primary1);
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-buttonradius);
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.page-text23 {
+  fill: var(--dl-color-theme-primary1);
+  color: var(--dl-color-theme-primary1);
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border-width: 0px;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.page-text24 {
+  fill: var(--dl-color-theme-primary1);
+  color: var(--dl-color-theme-primary1);
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border-width: 0px;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.page-text25 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  margin: var(--dl-space-space-halfunit);
+  display: inline-block;
+  align-self: center;
+  font-style: normal;
+  font-weight: 700;
+}
+.page-text26 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  margin: var(--dl-space-space-halfunit);
+  display: inline-block;
+  align-self: center;
+  font-style: normal;
+  font-weight: 700;
+}
+.page-text27 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  margin: var(--dl-space-space-halfunit);
+  display: inline-block;
+  align-self: center;
+  font-style: normal;
+  font-weight: 700;
+}
+@media(max-width: 1200px) {
+  .page-text10 {
+    padding: 4px;
+    text-align: center;
+  }
+  .page-text13 {
+    padding: 4px;
+    text-align: center;
+  }
+  .page-text16 {
+    padding: 4px;
+    text-align: center;
+  }
+}
+@media(max-width: 991px) {
+  .page-text10 {
+    text-align: center;
+  }
+  .page-text13 {
+    text-align: center;
+  }
+  .page-text16 {
+    text-align: center;
+  }
+  .page-text17 {
+    margin-right: var(--dl-space-space-unit);
+  }
+  .page-text22 {
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  .page-text23 {
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  .page-text24 {
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  .page-text25 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  .page-text26 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+    font-style: normal;
+    font-weight: 700;
+  }
+  .page-text27 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+@media(max-width: 767px) {
+  .page-text10 {
+    text-align: center;
+  }
+  .page-text13 {
+    text-align: center;
+  }
+  .page-text16 {
+    text-align: center;
+  }
+  .page-text17 {
+    text-align: center;
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .page-text25 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+  }
+  .page-text26 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+  }
+  .page-text27 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+  }
+}
+@media(max-width: 479px) {
+  .page-text16 {
+    text-align: center;
+  }
+  .page-text22 {
+    justify-content: center;
+  }
+  .page-text25 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .page-text26 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+    font-style: normal;
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+    font-weight: 700;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .page-text27 {
+    fill: var(--dl-color-theme-accent2);
+    color: var(--dl-color-theme-accent2);
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+    margin-left: 1x;
+    margin-right: 1x;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+}

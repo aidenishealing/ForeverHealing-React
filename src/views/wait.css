@@ -1,0 +1,671 @@
+.wait-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.wait-container2 {
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: center;
+}
+.wait-text10 {
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.wait-text11 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text13 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text16 {
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text19 {
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text22 {
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text25 {
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text28 {
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text31 {
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text34 {
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text37 {
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text40 {
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text45 {
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text48 {
+  font-style: normal;
+  font-weight: 700;
+}
+.wait-text51 {
+  font-weight: 700;
+}
+@media(max-width: 1200px) {
+  .wait-text10 {
+    align-self: center;
+    margin-top: var(--dl-space-space-twounits);
+  }
+  .wait-text11 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text12 {
+    font-size: 20px;
+  }
+  .wait-text13 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text16 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text19 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text22 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text25 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text28 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text31 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text34 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text37 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text40 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text45 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text48 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text51 {
+    font-weight: 700;
+  }
+}
+@media(max-width: 991px) {
+  .wait-text11 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text12 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text13 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text14 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text15 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text16 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text17 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text18 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text19 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text20 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text21 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text22 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text23 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text24 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text25 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text26 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text27 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text28 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text29 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text30 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text31 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text32 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text33 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text34 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text35 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text36 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text37 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text38 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text39 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text40 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text41 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text42 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text43 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text44 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text45 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text46 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text47 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text48 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text49 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text50 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text51 {
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+@media(max-width: 767px) {
+  .wait-text11 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text12 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text13 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text14 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text15 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text16 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text17 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text18 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text19 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text20 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text21 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text22 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text23 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text24 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text25 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text26 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text27 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text28 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text29 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text30 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text31 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text32 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text33 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text34 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text35 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text36 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text37 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text38 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text39 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text40 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text41 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text42 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text43 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text44 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text45 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text46 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text47 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text48 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text49 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text50 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text51 {
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+@media(max-width: 479px) {
+  .wait-container1 {
+    gap: var(--dl-space-space-unit);
+    padding-top: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .wait-text10 {
+    align-self: center;
+    margin-top: var(--dl-space-space-twounits);
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .wait-text11 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text12 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text13 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text14 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text15 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text16 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text17 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text18 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text19 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text20 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text21 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text22 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text23 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text24 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text25 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text26 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text27 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text28 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text29 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text30 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text31 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text32 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text33 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text34 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text35 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text36 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text37 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text38 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text39 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text40 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text41 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text42 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text43 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text44 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text45 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text46 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text47 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text48 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text49 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text50 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .wait-text51 {
+    font-style: normal;
+    font-weight: 700;
+  }
+}

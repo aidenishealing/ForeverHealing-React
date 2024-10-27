@@ -1,0 +1,107 @@
+.hero9-header30 {
+  gap: var(--dl-space-space-twounits);
+  justify-content: center;
+}
+.hero9-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero9-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero9-text11 {
+  font-weight: bold;
+}
+.hero9-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.hero9-button {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  align-items: center;
+  border-width: 0px;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-theme-secondary1);
+}
+.hero9-image {
+  width: 495px;
+  height: 301px;
+  object-fit: cover;
+}
+.hero9-text13 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-neutral-dark);
+  display: inline-block;
+  text-align: center;
+}
+.hero9-text16 {
+  display: inline-block;
+  text-align: center;
+}
+.hero9-text19 {
+  color: var(--dl-color-theme-neutral-dark);
+  display: inline-block;
+  font-weight: 700;
+}
+
+@media(max-width: 1200px) {
+  .hero9-button {
+    border-width: 0px;
+    background-color: var(--dl-color-theme-secondary1);
+  }
+  .hero9-text13 {
+    color: var(--dl-color-theme-primary2);
+  }
+}
+@media(max-width: 991px) {
+  .hero9-container {
+    position: relative;
+  }
+  .hero9-text13 {
+    text-align: center;
+  }
+  .hero9-text19 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .hero9-container {
+    position: relative;
+  }
+  .hero9-image {
+    width: 435px;
+    height: 285px;
+  }
+  .hero9-text13 {
+    fill: var(--dl-color-theme-neutral-dark);
+    color: var(--dl-color-theme-neutral-dark);
+  }
+}
+@media(max-width: 479px) {
+  .hero9-header30 {
+    width: 100%;
+    height: 100%;
+  }
+  .hero9-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .hero9-button {
+    width: 100%;
+  }
+  .hero9root-class-name {
+    width: 100%;
+    height: 100%;
+  }
+}
